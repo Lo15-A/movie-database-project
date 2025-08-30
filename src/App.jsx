@@ -1,10 +1,8 @@
+import Home from "./pages/Home"
+
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold text-indigo-300">
-        Welcome to DiscoverNaija Movies!
-      </h1>
-    </div>
+    <Home />
   )
 }
 
