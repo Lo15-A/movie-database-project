@@ -95,7 +95,7 @@ function Home() {
           </div>
         ) : (
           <p className="text-center text-gray-600 text-lg">
-            No movies found. Try searching for a title!
+            Any specific request? Try searching for a title!
           </p>
         )}
       </section>
