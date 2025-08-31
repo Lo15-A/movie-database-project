@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 function Home() {
   const [query, setQuery] = useState("");
   const [movies, setMovies] = useState([]);
@@ -34,16 +34,16 @@ function Home() {
     <div className="min-h-screen bg-purple-200 text-gray-900 font-sans">
       {/* Navbar */}
       <nav className="bg-purple-400 p-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">DiscoverNaijaMovies!</h1>
-        <ul className="flex gap-6 font-medium">
-          <li className="hover:text-purple-700 cursor-pointer">Home</li>
-          <li className="hover:text-purple-700 cursor-pointer">DiscoverMe</li>
-          <li className="hover:text-purple-700 cursor-pointer">Series</li>
-          <li className="hover:text-purple-700 cursor-pointer">Character Review</li>
-          <li className="hover:text-purple-700 cursor-pointer">Global Pick</li>
-          <li className="hover:text-purple-700 cursor-pointer">About Us</li>
-        </ul>
-      </nav>
+   <h1 className="text-2xl font-bold">DiscoverNaijaMovies!</h1>
+   <ul className="flex gap-6 font-medium">
+    <li><Link to="/" className="hover:text-purple-700">Home</Link></li>
+    <li><Link to="/discover" className="hover:text-purple-700">DiscoverMe</Link></li>
+    <li><Link to="/series" className="hover:text-purple-700">Series</Link></li>
+    <li><Link to="/reviews" className="hover:text-purple-700">Character Review</Link></li>
+    <li><Link to="/global" className="hover:text-purple-700">Global Pick</Link></li>
+    <li><Link to="/about" className="hover:text-purple-700">About Us</Link></li>
+  </ul>
+</nav>
 
       {/* Hero Section */}
       <header className="text-center py-12">
