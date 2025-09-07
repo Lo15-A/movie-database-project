@@ -1,42 +1,34 @@
-DiscoverNaija Movies! 
-The Idea
+#  DiscoverNaija Movies!
 
-Not everyone can afford paid streaming platforms like Netflix or Prime Video, and not every talented Nigerian filmmaker or storyteller can distribute their work there.
+## Overview
+**DiscoverNaija Movies!** is a movie discovery app built with React and Tailwind CSS.  
+It currently allows users to **search for movies via the OMDb API**, view clickable posters, and navigate to a **movie details page** for more information.  
 
-DiscoverNaija Movies! is a personalized movie discovery application that helps users explore curated YouTube movies and series from Nigeria, as well as global picks, including faith-based content and C-dramas.
+The project is the first step toward building a full movie discovery and streaming hub that will shine a spotlight on **Nigerian YouTube gems**, **faith-based films**, and other **global picks** that are often overlooked, and my original works.
 
-The idea came from my love of watching movies and the desire to highlight high-quality, free content that often goes unnoticed. This platform shines a spotlight on hardworking creatives while also offering optional recommendations from paid platforms. It’s perfect for audiences looking for relaxing, fun, faith-based, and wholesome entertainment, all without a price tag.
+---
 
-Features
+##  Current Features
+-  **Search Functionality**: Find movies by title using the OMDb API.  
+- **Movie List Display**: Posters, titles, and release years shown in a responsive grid.  
+- **Movie Details Page**: Click a poster to see more information about the selected movie.  
+-  **Responsive UI**: Styled with Tailwind CSS for desktop and mobile.  
+- **Error Handling**: Friendly message when no movies are found.  
 
-Search movies & dramas via the TMDB API
+---
 
-Curated sections:
+## Tech Stack
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **Data Source:** OMDb API (current)  
 
-Nigerian YouTube Picks (Free)
+---
 
-Faith-Based Films
+##  Future Plans
+-  **Curated Sections**: Nigerian YouTube Picks, Faith-Based Films, C-Drama Favorites, and Global Picks.  
+- **Richer Movie Details**: Integrate TMDB API for cast, ratings, and genres.  
+-  **Favorites List**: Save favorite titles to local storage.  
+-  **Streaming Integration**: Explore embedding Nigerian YouTube movies directly into the app.  
+- **Dark Mode**: Add theme customization for better user experience.  
 
-C-Drama Favorites
-
-Global Picks
-
-Movie details: posters, cast, plot, and ratings
-
-Character-focused reviews & highlights
-
-Responsive design with Tailwind CSS
-
-Tech Stack
-
-Frontend: React + Vite
-
-Styling: Tailwind CSS
-
-Data Sources: TMDB API + local JSON for curated lists
-
-Why This Project?
-
-Highlights free, high-quality Nigerian content
-
-Makes movie discovery easy for audiences with limited access to paid platforms
+---
